@@ -148,10 +148,7 @@ static const float kAfterInteractiveMaxProgressValue    = 0.9f;
 /* Popover View Controller Handlers */
 @property (nonatomic,strong) UIPopoverController *sharingPopoverController;
 
-/* See if we need to revert the toolbar to 'hidden' when we pop off a navigation controller. */
-@property (nonatomic,assign) BOOL hideToolbarOnClose;
-/* See if we need to revert the navigation bar to 'hidden' when we pop from a navigation controller */
-@property (nonatomic,assign) BOOL hideNavBarOnClose;
+
 
 /* Perform all common setup steps */
 - (void)setup;

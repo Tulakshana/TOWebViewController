@@ -154,4 +154,9 @@
  */
 @property (nonatomic,assign)    CGFloat buttonBevelOpacity;
 
+/* See if we need to revert the toolbar to 'hidden' when we pop off a navigation controller. */
+@property (nonatomic,assign) BOOL hideToolbarOnClose;
+/* See if we need to revert the navigation bar to 'hidden' when we pop from a navigation controller */
+@property (nonatomic,assign) BOOL hideNavBarOnClose;
+
 @end
